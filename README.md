@@ -4,10 +4,10 @@ Fedora image for mdBook-based generation
 
 This Fedora container image contains:
 
-  - mdBook: https://github.com/rust-lang/mdBook
+  - mdBook: https://github.com/rust-lang/mdBook  
     create book from markdown files, like Gitbook
-  - mdBook preprocessor: https://crates.io/crates/mdbook-callouts
-    preprocessor to add Obsidian Flavored Markdown's Callouts 
+  - mdBook preprocessor: https://crates.io/crates/mdbook-callouts  
+    to add Obsidian Flavored Markdown's Callouts 
 
 
 ## Usage instructions
