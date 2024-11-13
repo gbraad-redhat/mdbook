@@ -20,3 +20,13 @@ $ podman run --rm -v $PWD:/workspace \
 ```
 
 This will generate a `book` output.
+
+Or using
+
+```bash
+$ podman run --rm -v $PWD:/workspace -p 3000:3000 \
+    ghcr.io/gbraad-redhat/mdbook:0.4.42 \
+    mdbook serve
+```
+
+the generated content will be published using the embedded server on [`http://localhost:3000`](http://localhost:3000)
